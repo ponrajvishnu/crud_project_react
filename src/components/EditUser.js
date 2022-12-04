@@ -13,11 +13,11 @@ function EditUser() {
     //useEffect with empty dependency array
     useEffect(() => {
         if(params.id){
-            setName(context.users[params.id].name)
-            setEmail(context.users[params.id].email)
-            setMobile(context.users[params.id].mobile)
-            setBatch(context.users[params.id].batch)
-            setTimings(context.users[params.id].timing)
+          setName(context.users[params.id].name)
+          setEmail(context.users[params.id].email)
+          setMobile(context.users[params.id].mobile)
+          setBatch(context.users[params.id].batch)
+          setTimings(context.users[params.id].timing)
         }
     },[])
 
